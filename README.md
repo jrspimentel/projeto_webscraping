@@ -51,7 +51,7 @@ pip install -r requirements.txt
 5. Extração usando Webscraping
 ```bash
 cd src/coleta/
-scrapy crawl mercadolivre -o ../../data/mercadolivre.jsonl
+scrapy crawl mercadolivre -o ../../data/data_mercadolivre.jsonl
 ```
 
 6. Tratamento dos dados e armazenamento
