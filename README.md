@@ -29,3 +29,36 @@ Precisamos entender a relevância das marcas de tênis esportivos masculinos no 
 ## Dashboard
 
 ![dashboard](pics/app_streamlit.png)
+
+## Replicando o Projeto:
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/jrspimentel/projeto_webscraping.git
+cd projeto_webscraping
+```
+ 2. Configure a versão correta do Python com `pyenv`:
+```bash
+pyenv local 3.12.1
+python -m venv .venv
+```
+4. Instale as dependências do projeto:
+```bash
+source .venv/Scripts/activate # windows
+pip install -r requirements.txt
+```
+5. Extração usando Webscraping
+```bash
+cd src/coleta/
+scrapy crawl mercadolivre -o ../../data/mercadolivre.jsonl
+```
+
+6. Tratamento dos dados e armazenamento
+```bash
+python src/transformacao/processing.py
+```
+7. Rodar o Dashboard
+```bash
+streamlit run src/dashboard/app.py
+````
