@@ -63,7 +63,7 @@ python transformacao/processing.py
 ```
 7. Rodar o Dashboard
 
-    Dentro do direrório src execute
+    Dentro do diretório src execute
 ```bash
 streamlit run dashboard/app.py
 ````
