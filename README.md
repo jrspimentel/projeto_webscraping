@@ -24,4 +24,4 @@ Precisamos entender a relevância das marcas de tênis esportivos masculinos no 
 
 ### 4. Visualização dos Dados
 - **Objetivo:** Desenvolver métricas e criar um dashboard.
-- **Ferramentas:** Pandas para criar e Streamlit para visualização.
+- **Ferramentas:** Pandas para criar as análises e Streamlit para visualização.
