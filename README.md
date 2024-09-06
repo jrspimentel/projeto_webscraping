@@ -45,7 +45,8 @@ python -m venv .venv
 ```
 4. Instale as dependências do projeto:
 ```bash
-source .venv/Scripts/activate # windows
+# windows
+source .venv/Scripts/activate 
 pip install -r requirements.txt
 ```
 5. Extração usando Webscraping
@@ -54,11 +55,15 @@ cd src/coleta/
 scrapy crawl mercadolivre -o ../../data/data_mercadolivre.jsonl
 ```
 
-6. Tratamento dos dados e armazenamento
+6. Tratamento dos dados e armazenamento:
+
+    Dentro do diretório src execute
 ```bash
-python src/transformacao/processing.py
+python transformacao/processing.py
 ```
 7. Rodar o Dashboard
+
+    Dentro do direrório src execute
 ```bash
-streamlit run src/dashboard/app.py
+streamlit run dashboard/app.py
 ````
