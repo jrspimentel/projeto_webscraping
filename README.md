@@ -1,6 +1,6 @@
-# Webscraping Monitoramento de Preços de Tênis Masculinos no Mercado Livre
+# Análise de Marcas de Tênis Esportivos e Masculinos com Webscraping (Período 02/09/2024 até a página 15)
 
-## **Descrição**: 
+## **Necessidade**: 
 
 Precisamos entender a relevância das marcas de tênis esportivos masculinos no Mercado Livre. O objetivo desta pesquisa é avaliar como as diversas marcas são percebidas pelos consumidores e gerar métricas que respondam às seguintes perguntas:
 
